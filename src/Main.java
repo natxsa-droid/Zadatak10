@@ -7,7 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int broj = 0;
         boolean tocanUnos = false;
-        while (tocanUnos) {
+        while (!tocanUnos) // NB! pazi na !, ako ga nema, neće ni raditi
+             {
             System.out.print("Unesite broj: ");
             try {
                 broj = scanner.nextInt();
@@ -22,7 +23,7 @@ public class Main {
         for (int i = 1; i <= broj; i++) {
             rezultat *= i;
         }
-        System.out.println(rezultat);
+        System.out.println(broj);
     }
 
 }

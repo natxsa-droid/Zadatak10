@@ -19,11 +19,12 @@ public class Main {
                 scanner.nextLine();
             }
         }
+        // neće raditi ako upišem 76; da bi radio treba ovdje i na vrhu staviti import BigInteger
         long rezultat = 1;
         for (int i = 1; i <= broj; i++) {
             rezultat *= i;
         }
-        System.out.println(broj);
+        System.out.println(rezultat);
     }
 
 }

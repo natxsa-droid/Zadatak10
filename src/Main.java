@@ -15,6 +15,7 @@ public class Main {
             }
             catch (InputMismatchException e) {
                 System.out.println("Nije unešen broj.");
+                scanner.nextLine();
             }
         }
 

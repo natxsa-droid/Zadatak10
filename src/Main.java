@@ -18,6 +18,9 @@ public class Main {
                 scanner.nextLine();
             }
         }
+        for (int i = 0; i <= broj; i++) {
+            System.out.println(i);
+        }
 
 
     }

@@ -19,6 +19,10 @@ public class Main {
                 scanner.nextLine();
             }
         }
+        if (broj >= 0); {
+        System.out.println("Ne može biti negativan broj.");
+        }
+
         long rezultat = 1;
         for (int i = 1; i <= broj; i++) {
             rezultat *= i;

@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int broj = 0;
         boolean tocanUnos = false;
-        while (!tocanUnos)
+        while (!tocanUnos) // pazi na uskličnik!!
              {
             System.out.print("Unesite broj: ");
             try {
@@ -19,7 +19,7 @@ public class Main {
                 scanner.nextLine();
             }
         }
-        if (broj >= 0);
+        if (broj >= 0); // ne može biti negativan
 
         long rezultat = 1;
         for (int i = 1; i <= broj; i++) {

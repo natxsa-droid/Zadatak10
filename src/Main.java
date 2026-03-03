@@ -18,11 +18,11 @@ public class Main {
                 scanner.nextLine();
             }
         }
-        for (int i = 0; i <= broj; i++) {
-            System.out.println(i);
+        long rezultat = 1;
+        for (int i = 1; i <= broj; i++) {
+            rezultat *= i;
         }
-
-
+        System.out.println(rezultat);
     }
 
 }

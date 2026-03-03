@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int broj = 0;
         boolean tocanUnos = false;
-        while (!tocanUnos) // NB! pazi na !, ako ga nema, neće ni raditi
+        while (!tocanUnos)
              {
             System.out.print("Unesite broj: ");
             try {
@@ -19,7 +19,6 @@ public class Main {
                 scanner.nextLine();
             }
         }
-        // neće raditi ako upišem 76; da bi radio treba ovdje i na vrhu staviti import BigInteger
         long rezultat = 1;
         for (int i = 1; i <= broj; i++) {
             rezultat *= i;
